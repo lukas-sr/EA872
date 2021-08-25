@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 typedef struct {
@@ -20,7 +19,6 @@ void cube_new(Cube c, int x, int y, int z) {
   c->y = y;
   c->z = z;
 }
-
 void cube_print_volume(Cube c) {
   printf("%d\n", c->x * c->y * c->z);
 }

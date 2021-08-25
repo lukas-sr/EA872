@@ -28,6 +28,7 @@ void Coord::InitCoord (float new_x, float new_y)
     x = new_x;
     y = new_y;
 }
+
 // Inicializa Coordenadas do Cubo
 void Cube::InitCube (float new_x, float new_y, float new_z)
 {
