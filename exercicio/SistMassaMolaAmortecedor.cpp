@@ -11,6 +11,7 @@
 #include <memory>
 
 /* Model */
+<<<<<<< HEAD
 class Bloco{
     private:
         /*Massa, posição, velocidade e aceleração*/
@@ -46,30 +47,6 @@ class Simulacao{
         void run(int n_passos);
 };
 
-/* Definição dos métodos em Model */ 
-Bloco::Bloco(){
-
-}
-
-void Bloco::bloco_set_params(float new_m){
-    m = new_m;
-}
-
-Mola::Mola(){
-
-}
-
-void Mola::mola_set_params(float new_k){
-    k = new_k;
-}
-
-Amortecedor::Amortecedor(){
-
-}
-
-void Amortecedor::amort_set_params(float new_b){
-    b = new_b;
-}
 
 /* Definição dos métodos em Controler */
 Simulacao::Simulacao(){
