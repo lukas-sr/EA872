@@ -52,10 +52,13 @@ int main()
 {
     unique_ptr <Coord> c1 (new Coord);
     unique_ptr <Cube> c2 (new Cube);
-
+    int A, B;
     (*c1).InitCoord(50, 10);
     (*c2).InitCube(10, 20, 30);
     (*c2).CubePrintVolume(*c2);
+
+    A = B = 0;
+    printf("%d %d", A, B);
 
     return 0;
 }
