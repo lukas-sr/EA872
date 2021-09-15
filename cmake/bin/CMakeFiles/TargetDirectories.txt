@@ -1,0 +1,4 @@
+/home/lukasr/Documents/Estudos/Cpp/cmake/bin/CMakeFiles/rebuild_cache.dir
+/home/lukasr/Documents/Estudos/Cpp/cmake/bin/CMakeFiles/edit_cache.dir
+/home/lukasr/Documents/Estudos/Cpp/cmake/bin/CMakeFiles/func.dir
+/home/lukasr/Documents/Estudos/Cpp/cmake/bin/CMakeFiles/MeuJogo.dir

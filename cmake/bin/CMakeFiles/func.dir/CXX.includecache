@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/func.h
+
+/home/lukasr/Documents/Estudos/Cpp/cmake/src/func.cpp
+func.h
+/home/lukasr/Documents/Estudos/Cpp/cmake/src/func.h
+iostream
+-
+

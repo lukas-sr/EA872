@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/func.h
+
+/home/lukasr/Documents/Estudos/Cpp/cmake/src/tutorial.cpp
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+iostream
+-
+func.h
+/home/lukasr/Documents/Estudos/Cpp/cmake/src/func.h
+

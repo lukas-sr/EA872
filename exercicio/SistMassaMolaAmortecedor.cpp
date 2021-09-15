@@ -94,7 +94,10 @@ float Controller::step_simulation(){
     float v = M.get_vel_x();
     float a = M.get_acc_x();
     float new_x, w, ww, alpha, delta=0.1;
-    
+    // calcular a força
+    //      Com a força -> aceleração
+    //      vel nova -> 
+    //
     ww = k/m;
     w = sqrt(ww);
     alpha = b/(m*2*w);

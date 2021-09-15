@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/MeuJogo.dir/src/tutorial.cpp.o  -o MeuJogo  libfunc.a -lSDL2 -lSDL2_image 
